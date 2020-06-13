@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kenift/utility/compare/v1.0.0...v1.0.1) (2020-06-13)
+
+
+### Bug Fixes
+
+* removing branch v2.x.x from release branches ([81bf35c](https://github.com/kenift/utility/commit/81bf35c220cf577bbad0d9a967ad266f1bb2405c))
+
 # 1.0.0 (2020-06-13)
 
 
