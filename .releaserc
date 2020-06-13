@@ -1,6 +1,5 @@
 {
     "branches": [
-      "v2.*.*",
       "v1.*.*"
     ],
     "repositoryUrl": "https://github.com/kenift/utility.git",
