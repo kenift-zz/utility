@@ -2,12 +2,17 @@
   "name": "@kenift/utility",
   "version": "1.0.1",
   "description": "Kenift utility tools",
+  "private": false,
   "main": "dist/index.js",
   "typings": "types",
   "author": {
     "name": "Paulo Vernetti",
     "url": "https://github.com/PauloVernetti",
     "email": "vernetti@kenift.com"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "declarations": "tsc --build tsconfig.decl.json",
