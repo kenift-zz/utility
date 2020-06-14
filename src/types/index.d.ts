@@ -18,5 +18,10 @@ declare namespace Kenift {
       y: number;
       z: number
     }
+
+    type TestingTimerStopOptions = {
+      module?: string;
+      message?: string;
+    }
   }
 }
