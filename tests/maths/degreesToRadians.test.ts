@@ -1,4 +1,4 @@
-import {degreesToRadians} from '../../src/trigonometry/degreesToRadians'
+import {degreesToRadians} from '../../src/maths/degreesToRadians'
 
 describe("Trigonometry degreesToRadians Test Suite", () => {
   test("Test converting 70 degrees to radians", () => {
