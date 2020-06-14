@@ -8,6 +8,6 @@ export function getDifferenceBetweenNumbers(num1: number, num2: number) {
       return num2 - num1;
     }
   } else {
-    return Exception.error("Utility", "getDifferenceBetweenNumbers method parameters should be a number type");
+    throw Exception.error("Utility", "getDifferenceBetweenNumbers method parameters should be a number type");
   }
 }

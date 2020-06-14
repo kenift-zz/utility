@@ -23,5 +23,15 @@ declare namespace Kenift {
       module?: string;
       message?: string;
     }
+
+    type Coordinate2D = {
+      x: number;
+      y: number;
+    }
+
+    type getDistanceBetweenCoords2DOptions = {
+      coordinates: Array<Coordinate2D>,
+      unitSize?: number;
+    }
   }
 }
