@@ -21,5 +21,10 @@
       "node_modules/@types",
       "src/types"
     ]
-  }
+  },
+  "exclude": [
+    "tests/**",
+    "node_modules/**",
+    "dist/**"
+  ]
 }

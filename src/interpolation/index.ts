@@ -4,7 +4,7 @@
  * @description Class Interpolation contains cubic, quad, quart, quint, sinusoidal, exponential, circular easing utility functions
  * @author Paulo Vernetti - https://github.com/PauloVernetti
  */
-class Interpolation {
+export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
@@ -808,5 +808,3 @@ class Interpolation {
     return options.finishAt/2 * (Math.sqrt(1 - options.currentTime*options.currentTime) + 1) + options.startAt;
   }
 }
-
-export const interpolation =  new Interpolation();

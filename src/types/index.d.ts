@@ -6,5 +6,17 @@ declare namespace Kenift {
       finishAt: number,
       durationTime: number
     }
+
+    type GetPointCoordsAtDegreeOptions = {
+      center: { x: number, y: number, z: number };
+      radius: number;
+      degree: number;
+    }
+
+    type GetPointCoordsAtDegreeResult = {
+      x: number;
+      y: number;
+      z: number
+    }
   }
 }

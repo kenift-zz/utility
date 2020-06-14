@@ -1,8 +1,8 @@
-import { interpolation } from '../../src/interpolation';
+import { Interpolation } from '../../src/interpolation';
 
 describe("Interpolation Test Suite", () => {
   test("Interpolation linear Test Case", () => {
-    expect(interpolation.linear({
+    expect(Interpolation.linear({
       currentTime: 50,
       startAt: 0,
       finishAt: 100,
