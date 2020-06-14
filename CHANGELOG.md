@@ -1,3 +1,21 @@
+# [1.1.0](https://github.com/kenift/utility/compare/v1.0.2...v1.1.0) (2020-06-14)
+
+
+### Bug Fixes
+
+* delete types file degreesToRadians.d.ts from remote [skip-ci] ([28fc066](https://github.com/kenift/utility/commit/28fc066b049901e4a2e05442c96f46daf9773db1))
+* delete types file getPointCoordsAtDegree.d.ts from remote [skip-ci] ([1255c33](https://github.com/kenift/utility/commit/1255c33d551b799afe6be9e70359f2cb04ae5af8))
+* delete types file index.d.ts from remote [skip-ci] ([ee4a324](https://github.com/kenift/utility/commit/ee4a324cbee4d0cf17fbb32809f648455e0eb1ff))
+* delete types file interpolation/index.d.ts from remote [skip-ci] ([4116be6](https://github.com/kenift/utility/commit/4116be6e5ea3fc8d9a3edd0e31a5825211bd1c6b))
+* delete types file trigonometry/index.d.ts from remote [skip-ci] ([3dac8e1](https://github.com/kenift/utility/commit/3dac8e1a462c40c875e32280848b9d9368689399))
+
+
+### Features
+
+* adding class Testing and child-class Timer ([b0ea2b9](https://github.com/kenift/utility/commit/b0ea2b9a9edffe739c1d0c0ec8557c7f96094e3c))
+* adding class Trigonometry ([006fc55](https://github.com/kenift/utility/commit/006fc552bbcc36cb12e8fb559a002cd72a32a4a5))
+* adding types folder to .gitignore ([6158d2c](https://github.com/kenift/utility/commit/6158d2c6cfbc019497a7e18ef158a253beb9ef93))
+
 ## [1.0.2](https://github.com/kenift/utility/compare/v1.0.1...v1.0.2) (2020-06-14)
 
 
