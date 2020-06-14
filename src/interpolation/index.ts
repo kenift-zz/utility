@@ -8,7 +8,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -45,7 +45,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -83,7 +83,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -120,7 +120,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -154,7 +154,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -192,7 +192,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -228,7 +228,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -264,7 +264,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -300,7 +300,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -337,7 +337,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -375,7 +375,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -411,7 +411,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -448,7 +448,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -486,7 +486,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -521,7 +521,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -556,7 +556,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -591,7 +591,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -626,7 +626,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -661,7 +661,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -699,7 +699,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -735,7 +735,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
@@ -772,7 +772,7 @@ export const Interpolation = new class Interpolation {
   /**
    * @author Paulo Vernetti - https://github.com/PauloVernetti
    * @example
-   * import { interpolation } from "@kenift/utility";
+   * import { Interpolation } from "@kenift/utility";
    *
    * let current = 0;
    * let duration = 10000;
