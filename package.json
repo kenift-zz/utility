@@ -1,6 +1,7 @@
 {
   "name": "@kenift/utility",
   "version": "0.1.0",
+  "private": false,
   "description": "Kenift utility tools",
   "main": "dist/index.js",
   "typings": "types",
@@ -14,6 +15,10 @@
     "build": "rollup -c && npm run declarations",
     "test": "jest && codecov",
     "release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
