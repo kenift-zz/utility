@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "types",
+    "rootDir": "src"
+  },
+  "exclude": [
+    "tests/**",
+    "dist/**",
+    "node_modules/**"
+  ]
+}

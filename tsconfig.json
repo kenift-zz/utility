@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES2020",
+    "alwaysStrict": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ]
+  },
+  "exclude": [
+    "tests/**",
+    "node_modules/**",
+    "dist/**"
+  ]
+}

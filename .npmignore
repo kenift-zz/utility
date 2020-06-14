@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+coverage/
+src/
+tests/
+.gitignore
+.releaserc
+.travis.yml
+jest.config.js
+rollup.config.js
+tsconfig.decl.json
+tsconfig.json

@@ -1,0 +1,61 @@
+{
+  "name": "@kenift/utility",
+  "version": "1.2.0",
+  "description": "Kenift utility tools",
+  "private": false,
+  "main": "dist/index.js",
+  "typings": "types",
+  "author": {
+    "name": "Paulo Vernetti",
+    "url": "https://github.com/PauloVernetti",
+    "email": "vernetti@kenift.com"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "declarations": "tsc --build tsconfig.decl.json",
+    "build": "rollup -c && npm run declarations",
+    "test": "jest && codecov",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenift/utility.git"
+  },
+  "keywords": [
+    "Kenift",
+    "Utility",
+    "Tools"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenift/utility/issues"
+  },
+  "homepage": "https://github.com/kenift/utility#readme",
+  "devDependencies": {
+    "@kenift/exception": "^1.6.0",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.7",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "@types/jest": "^26.0.0",
+    "cli-progress": "^3.8.2",
+    "codecov": "^3.7.0",
+    "esm": "^3.2.25",
+    "jest": "^26.0.1",
+    "rollup": "^2.16.0",
+    "semantic-release": "^17.0.8",
+    "ts-jest": "^26.1.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  }
+}
