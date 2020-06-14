@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kenift/utility/compare/v1.0.1...v1.0.2) (2020-06-14)
+
+
+### Bug Fixes
+
+* adding publishConfig ([100d8d8](https://github.com/kenift/utility/commit/100d8d851b7703d240ce7deff9fa846ba95047df))
+
 ## [1.0.1](https://github.com/kenift/utility/compare/v1.0.0...v1.0.1) (2020-06-13)
 
 
