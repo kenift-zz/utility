@@ -1,4 +1,3 @@
-import {Exception} from "@kenift/exception";
 import type {Coordinate2D} from "./coordinate2D";
 
 export function getDistanceBetweenCoords2D(options: {
@@ -6,7 +5,7 @@ export function getDistanceBetweenCoords2D(options: {
   unitSize?: number
 }): number {
   if (options.coordinates.length < 2) {
-    throw Exception.error("Utility", "To get distance between coordinates you should specify at least 2 2D coordinates");
+    throw new Error("To get distance between coordinates you should specify at least 2 2D coordinates");
   }
   if (!options.unitSize || options.unitSize <= 0) {
     options.unitSize = 1;

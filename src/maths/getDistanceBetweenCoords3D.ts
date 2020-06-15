@@ -1,4 +1,3 @@
-import {Exception} from "@kenift/exception";
 import type {Coordinate3D} from "./coordinate3D";
 
 export function getDistanceBetweenCoords3D(options: {
@@ -6,9 +5,9 @@ export function getDistanceBetweenCoords3D(options: {
   unitSize?: number
 }): number {
   if (options.coordinates.length < 2) {
-    throw Exception.error("Utility", "To get distance between coordinates you should specify at least 2 3D coordinates");
+    throw new Error("To get distance between coordinates you should specify at least 2 3D coordinates");
   }
-  if (!options.unitSize) {
+  if (!options.unitSize || options.unitSize <= 0) {
     options.unitSize = 1;
   }
 
