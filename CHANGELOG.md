@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/kenift/utility/compare/v1.1.0...v1.2.0) (2020-06-14)
+
+
+### Bug Fixes
+
+* reworking types of stop method ([cbee09e](https://github.com/kenift/utility/commit/cbee09ebe8d2a8a31686f20a19d4c24f81c19a24))
+
+
+### Features
+
+* adding class Maths and first method getDifferenceBetweenNumbers ([2aceb46](https://github.com/kenift/utility/commit/2aceb467bc6b66a0683c97b9e105956210491b50))
+* adding classes Coordinate2D and Coordinate3D ([6fbff76](https://github.com/kenift/utility/commit/6fbff769141762b8fc52c85f7d4448da2431bf43))
+* adding method getDistanceBetweenCoords2D ([b9bafcb](https://github.com/kenift/utility/commit/b9bafcb7dff902c652a728fd15f58782933a2740))
+* adding method getDistanceBetweenCoords3D ([664bb3d](https://github.com/kenift/utility/commit/664bb3dc272ed9fcf8ae908e9ab1f289ebb5338b))
+* adding verification function for Coordinates classes ([f4c4242](https://github.com/kenift/utility/commit/f4c42426f0d240735e2f509644685b19b5f28901))
+
 # [1.1.0](https://github.com/kenift/utility/compare/v1.0.2...v1.1.0) (2020-06-14)
 
 
