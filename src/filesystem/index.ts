@@ -24,20 +24,20 @@ export const Filesystem = new class Filesystem {
       }
     }
   }
-  deleteDirectory(destinationFolder: string): void {
-    if (fs.existsSync(destinationFolder) && fs.statSync(destinationFolder).isDirectory()) {
-      this.cleanDirectory(destinationFolder);
-      fs.rmdirSync(destinationFolder);
-      Exception.success("Filesystem", "Directory with name " + path.basename(destinationFolder) + " has been deleted");
+  deleteDirectory(directoryPath: string): void {
+    if (fs.existsSync(directoryPath) && fs.statSync(directoryPath).isDirectory()) {
+      this.cleanDirectory(directoryPath);
+      fs.rmdirSync(directoryPath);
+      Exception.success("Filesystem", "Directory with name " + path.basename(directoryPath) + " has been deleted");
     } else {
-      Exception.warning("Filesystem", "Directory with name " + path.basename(destinationFolder) + " is not exists");
+      Exception.warning("Filesystem", "Directory with name " + path.basename(directoryPath) + " is not exists");
     }
   }
-  cleanDirectory(destinationFolder: string): void {
+  cleanDirectory(directoryPath: string): void {
     let destinationFolderTree: Array<{ type: string, path: string }> = [];
 
-    if (fs.existsSync(destinationFolder) && fs.statSync(destinationFolder).isDirectory()) {
-      function createFolderTree(folder: string): void {
+    if (fs.existsSync(directoryPath) && fs.statSync(directoryPath).isDirectory()) {
+      const createFolderTree = (folder: string): void => {
         let data = fs.readdirSync(folder);
 
         for (let index = 0; index < data.length; index++) {
@@ -55,7 +55,7 @@ export const Filesystem = new class Filesystem {
         }
       }
 
-      createFolderTree(destinationFolder);
+      createFolderTree(directoryPath);
 
       let reversed: Array<{ type: string, path: string }> = destinationFolderTree.reverse();
 
@@ -68,9 +68,9 @@ export const Filesystem = new class Filesystem {
           fs.rmdirSync(el.path);
         }
       }
-      Exception.success("Filesystem", "Directory with name " + path.basename(destinationFolder) + " has been cleaned up");
+      Exception.success("Filesystem", "Directory with name " + path.basename(directoryPath) + " has been cleaned up");
     } else {
-      Exception.warning("Filesystem", "Directory with name " + path.basename(destinationFolder) + " is not exists");
+      Exception.warning("Filesystem", "Directory with name " + path.basename(directoryPath) + " is not exists");
     }
   }
 }
