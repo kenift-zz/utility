@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/kenift/utility/compare/v1.2.0...v1.2.1) (2020-06-15)
+
+
+### Bug Fixes
+
+* removing package @kenift/exception, cause browserless dependencies ([a178e8c](https://github.com/kenift/utility/commit/a178e8c54101b6d7d8140eda9e88e0e733c62916))
+
 # [1.2.0](https://github.com/kenift/utility/compare/v1.1.0...v1.2.0) (2020-06-14)
 
 
