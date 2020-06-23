@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/kenift/utility/compare/v1.2.1...v1.3.0) (2020-06-19)
+
+
+### Bug Fixes
+
+* adding cleanTypes.js to clean types directory if exists ([eb1be47](https://github.com/kenift/utility/commit/eb1be47a97fe1b4bfb0e71e27cdf60b78a3ea7e3))
+
+
+### Features
+
+* adding module filesystem ([55bcb8d](https://github.com/kenift/utility/commit/55bcb8d89f8f1cfa2e696a91b6a90883365da62c))
+
 ## [1.2.1](https://github.com/kenift/utility/compare/v1.2.0...v1.2.1) (2020-06-15)
 
 
