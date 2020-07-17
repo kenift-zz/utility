@@ -1,3 +1,36 @@
+## [1.3.2](https://github.com/kenift/utility/compare/v1.3.1...v1.3.2) (2020-07-17)
+
+
+### Bug Fixes
+
+* removing types folder and adding type to source file ([383275e](https://github.com/kenift/utility/commit/383275e9453706281026e36c343e3d0df25fb8bc))
+
+## [1.3.1](https://github.com/kenift/utility/compare/v1.3.0...v1.3.1) (2020-06-23)
+
+
+### Bug Fixes
+
+* fixing package.json main entry and adding scripts path to .npmignore ([3b2af13](https://github.com/kenift/utility/commit/3b2af13c1f6641cfc1bd0edc42a82116893194cf))
+
+# [1.3.0](https://github.com/kenift/utility/compare/v1.2.1...v1.3.0) (2020-06-19)
+
+
+### Bug Fixes
+
+* adding cleanTypes.js to clean types directory if exists ([eb1be47](https://github.com/kenift/utility/commit/eb1be47a97fe1b4bfb0e71e27cdf60b78a3ea7e3))
+
+
+### Features
+
+* adding module filesystem ([55bcb8d](https://github.com/kenift/utility/commit/55bcb8d89f8f1cfa2e696a91b6a90883365da62c))
+
+## [1.2.1](https://github.com/kenift/utility/compare/v1.2.0...v1.2.1) (2020-06-15)
+
+
+### Bug Fixes
+
+* removing package @kenift/exception, cause browserless dependencies ([a178e8c](https://github.com/kenift/utility/commit/a178e8c54101b6d7d8140eda9e88e0e733c62916))
+
 # [1.2.0](https://github.com/kenift/utility/compare/v1.1.0...v1.2.0) (2020-06-14)
 
 

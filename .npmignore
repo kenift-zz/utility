@@ -2,6 +2,7 @@
 node_modules/
 coverage/
 src/
+scripts/
 tests/
 .gitignore
 .releaserc

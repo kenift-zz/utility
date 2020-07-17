@@ -2,6 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
+    "esModuleInterop": true,
     "declarationDir": "types",
     "rootDir": "src"
   },

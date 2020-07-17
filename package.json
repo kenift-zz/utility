@@ -1,10 +1,10 @@
 {
   "name": "@kenift/utility",
-  "version": "1.2.0",
+  "version": "1.3.2",
   "description": "Kenift utility tools",
   "private": false,
-  "main": "dist/index.js",
-  "typings": "types",
+  "main": "dist/utility.es.js",
+  "typings": "types/index.d.ts",
   "author": {
     "name": "Paulo Vernetti",
     "url": "https://github.com/PauloVernetti",
@@ -15,7 +15,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "declarations": "tsc --build tsconfig.decl.json",
+    "clean:types": "node scripts/cleanTypes.js",
+    "declarations": "npm run clean:types && tsc --build tsconfig.decl.json",
     "build": "rollup -c && npm run declarations",
     "test": "jest && codecov",
     "release": "semantic-release"
@@ -35,7 +36,6 @@
   },
   "homepage": "https://github.com/kenift/utility#readme",
   "devDependencies": {
-    "@kenift/exception": "^1.6.0",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
@@ -48,6 +48,7 @@
     "@semantic-release/npm": "^7.0.5",
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
     "cli-progress": "^3.8.2",
     "codecov": "^3.7.0",
     "esm": "^3.2.25",
@@ -57,5 +58,10 @@
     "ts-jest": "^26.1.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@kenift/exception": "^1.6.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
