@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/kenift/utility/compare/v1.3.1...v1.3.2) (2020-07-17)
+
+
+### Bug Fixes
+
+* removing types folder and adding type to source file ([383275e](https://github.com/kenift/utility/commit/383275e9453706281026e36c343e3d0df25fb8bc))
+
 ## [1.3.1](https://github.com/kenift/utility/compare/v1.3.0...v1.3.1) (2020-06-23)
 
 
