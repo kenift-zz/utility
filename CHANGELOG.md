@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/kenift/utility/compare/v1.3.0...v1.3.1) (2020-06-23)
+
+
+### Bug Fixes
+
+* fixing package.json main entry and adding scripts path to .npmignore ([3b2af13](https://github.com/kenift/utility/commit/3b2af13c1f6641cfc1bd0edc42a82116893194cf))
+
 # [1.3.0](https://github.com/kenift/utility/compare/v1.2.1...v1.3.0) (2020-06-19)
 
 
