@@ -54,7 +54,7 @@
     "esm": "^3.2.25",
     "jest": "^26.0.1",
     "rollup": "^2.16.0",
-    "semantic-release": "^17.0.8",
+    "semantic-release": "^19.0.3",
     "ts-jest": "^26.1.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.5"
